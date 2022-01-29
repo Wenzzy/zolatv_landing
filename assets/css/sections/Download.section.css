@@ -1,0 +1,111 @@
+section.download {
+    background: var(--allinone-bg);
+}
+
+.download__wrapper {
+    padding: 65px 20px 80px 20px;
+    max-width: var(--download-c-width);
+    display: grid;
+    grid-template: 1fr / 304px 1fr;
+    grid-gap: 180px;
+    align-items: center;
+    justify-content: center;
+}
+
+.download__circles {
+    height: 304px;
+    position: relative;
+}
+
+.download__circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.download__circle:nth-child(1) {
+    width: 102px;
+    height: 102px;
+    background: linear-gradient(180deg, #FD494F 0%, #FCA406 100%);
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.download__circle:nth-child(1) img {
+    width: 29px;
+    height: 33px;
+}
+
+.download__circle:nth-child(2) {
+    width: 168px;
+    height: 168px;
+    border: 3px solid #FD6638;
+    opacity: 0.2;
+    border-radius: 50%;
+}
+
+.download__circle:nth-child(3) {
+    width: 234px;
+    height: 234px;
+    border: 2px solid #FD6638;
+    opacity: 0.2;
+    border-radius: 50%;
+}
+
+.download__circle:nth-child(4) {
+    width: 304px;
+    height: 304px;
+    border: 1px solid #FD6638;
+    opacity: 0.2;
+    border-radius: 50%;
+}
+
+
+.download__image:nth-child(1) {
+    width: 37px;
+    height: 52px;
+    position: absolute;
+    left: 26px;
+    top: 93px;
+    transform: rotate(15deg);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.download__image:nth-child(2) {
+    width: 44px;
+    height: 61px;
+    position: absolute;
+    right: 34px;
+    top: 42px;
+    transform: rotate(-15deg);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.download__image:nth-child(3) {
+    width: 32px;
+    height: 44px;
+    position: absolute;
+    right: 98px;
+    bottom: 16px;
+    transform: rotate(15deg);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.download__title {
+    margin-top: 10px;
+}
+.download__text {
+    margin-top: 20px;
+}
+.download__button_mobile{
+    display: none;
+}
+.download__footer_mobile {
+    display: none;
+}

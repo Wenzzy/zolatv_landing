@@ -1,0 +1,50 @@
+section.livesport {
+    text-align: left;
+    position: relative;
+}
+
+section.livesport::before {
+    content: '';
+    display: block;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(269.96deg, #0D172C 7.97%, rgba(63, 29, 89, 0.5) 105.98%), var(--livesport-bg);
+    backdrop-filter: blur(37.2414px);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.livesport__wrapper {
+    max-width: var(--livesport-c-width);
+    padding: 150px 20px;
+}
+
+.livesport__title {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.livesport__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 40px;
+}
+.livesport__text_mobile {
+    display: none;
+}
+
+.livesport__button {
+    margin-top: 40px;
+}
+
+.livesport__phone {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

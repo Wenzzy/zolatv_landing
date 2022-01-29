@@ -1,0 +1,27 @@
+:root {
+    --default-text-color: #fff;
+    --accent-color: #F58500;
+    --accent-hover-color: #c36b04;
+    --lights-color: #702DFF;
+    --borders-color: #9FA8B8;
+    --mobile-footer-color: #844A3F;
+    --play-btn: url("/assets/img/icons/play.svg");
+
+
+    --start-bg: url("/assets/img/firstBG.png");
+    --brands-bg: #171E2C;
+    --allinone-bg: #101217;
+    --livesport-bg: url("/assets/img/sportBG.png");
+    --toplists-bg: #182031;
+
+
+    --buttons-radius: 5px;
+    --start-c-width: 1058px;
+    --brands-c-width: 628px;
+    --allinone-c-width: 1200px;
+    --livesport-c-width: 938px;
+    --languages-c-width: 920px;
+    --toplists-c-width: 953px;
+    --download-c-width: 856px;
+    --footer-c-width: 570px;
+}

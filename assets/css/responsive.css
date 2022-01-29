@@ -1,0 +1,333 @@
+@media screen and (max-width: 1024px) {
+    section.allinone::before {
+        width: 100%;
+        height: 313px;
+
+    }
+
+    .allinone__content {
+        grid-template: repeat(2, 45%) / repeat(2, 32%);
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .brands__wrapper {
+        padding-bottom: 55px;
+    }
+
+    .brands__icons {
+        grid-template-columns: unset;
+        grid-template: repeat(2, 50%) / repeat(3, 25%);
+        grid-gap: 10px;
+        margin-top: 10px;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .allinone__content {
+        grid-template: repeat(2, 50%) / repeat(2, 40%);
+    }
+
+    .livesport__phone {
+        right: -40px;
+    }
+
+    .languages__wrapper {
+        grid-template-columns: 370px 1fr;
+        grid-gap: 40px;
+    }
+
+    .languages_player {
+        height: 230px;
+    }
+
+    .languages__title {
+        font-size: 25px;
+    }
+
+    .toplists__wrapper {
+        grid-gap: 20px;
+    }
+
+    .toplists__title {
+        font-size: 25px;
+    }
+
+    .toplists__cards {
+        grid-gap: 10px;
+        grid-template: 230px / 175px 1fr;
+    }
+
+    .tl-cards__many-small {
+        grid-template: repeat(2, 108px) / repeat(2, 108px);
+        grid-gap: 10px;
+    }
+
+    .toplists__text {
+        font-size: 17px;
+    }
+
+    .download__wrapper {
+        grid-gap: 80px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .btn {
+        padding: 16px 60px;
+    }
+
+    .section__subtitle {
+        display: none
+    }
+
+    .sign-in span {
+        display: none;
+    }
+
+    .sign-in img {
+        width: 13px;
+        height: 15px;
+    }
+
+    .start-c__logo {
+        width: 100px;
+    }
+
+    .start-c__title {
+        margin-top: 45px;
+        font-size: 18px;
+    }
+
+    .brands__icons {
+        grid-template: repeat(2, 50%) / repeat(3, 33%);
+        grid-gap: 5px;
+    }
+
+    .brands__icons img:nth-child(3) {
+        width: 82px;
+    }
+
+    .allinone__wrapper {
+        padding: 45px 20px 75px 20px;
+    }
+
+    .allinone__content {
+        grid-template: repeat(2, 48%) / repeat(2, 47%);
+        grid-gap: 15px;
+        margin-top: 30px;
+    }
+
+    .allinone__title {
+        display: none;
+    }
+
+    section.allinone::before {
+        height: 230px;
+        top: 55%;
+    }
+
+    .allinone__title_mobile {
+        display: inline-block;
+    }
+
+    .card__title {
+        font-size: 18px;
+    }
+
+    .card__subtitle {
+        display: none;
+    }
+
+    .card__desc {
+        padding: 12px 12px;
+    }
+
+    .livesport__wrapper {
+        padding: 55px 20px 355px;
+        text-align: center;
+    }
+
+    .livesport__phone {
+        width: 340px;
+        right: 9%;
+    }
+
+    .livesport__title {
+        font-size: 28px;
+    }
+
+    .livesport__text {
+        display: none;
+    }
+
+    .livesport__text_mobile {
+        display: inline-block;
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    .livesport__button {
+        display: none;
+    }
+
+    .languages__wrapper {
+        grid-template-columns: 1fr;
+        /*grid-template-rows: 1fr 1fr 50px;*/
+        text-align: center;
+        padding: 60px 20px 42px 20px;
+        grid-gap: 30px;
+        align-items: flex-end;
+    }
+
+    .languages_player {
+        order: 1;
+        margin-top: 10px;
+    }
+
+    .languages__title {
+        display: none;
+    }
+
+    .languages__title_mobile {
+        display: inline-block;
+    }
+
+    .languages__list {
+        margin-top: 35px;
+        justify-content: center;
+    }
+
+    .languages__button_mobile {
+        display: block;
+        order: 2;
+        padding: 18px 18px;
+    }
+
+
+    .toplists__wrapper {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+        padding: 50px 20px 90px 20px;
+    }
+
+    .toplists__text {
+        font-size: 15px;
+    }
+
+    section.toplists::after {
+        top: 61%;
+        right: 4%;
+        width: 93%;
+        filter: blur(76px);
+        opacity: 0.8;
+    }
+
+    .tl-cards__one-big {
+        display: none;
+    }
+
+    .toplists__cards {
+        grid-template: 1fr /1fr;
+    }
+
+    .tl-cards__many-small {
+        grid-template: repeat(2, 121px) / repeat(2, 121px);
+        grid-gap: 17px;
+    }
+
+    .toplists__title {
+        margin: 0;
+    }
+
+    .download__wrapper {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        text-align: center;
+        padding: 50px 20px 80px 20px;
+    }
+
+    .download__circles {
+        order: 1;
+    }
+
+    .download__button_mobile {
+        margin-top: 10px;
+        order: 2;
+        padding: 18px 18px;
+    }
+
+    .download__text {
+        font-size: 15px;
+    }
+
+    .download__button_mobile {
+        display: block;
+    }
+    .download__footer_mobile {
+        display: block;
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 100%;
+        font-size: 10px;
+        font-family: 'Roboto', sans-serif;
+        color: var(--mobile-footer-color);
+    }
+
+    .footer {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    .livesport__phone {
+        right: 4%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .btn {
+        padding: 16px 16px;
+    }
+
+    .start-c__logo {
+        width: 80px;
+    }
+    .start-c__button {
+        padding: 16px 55px;
+    }
+
+    .start-c__title {
+        font-size: 15px;
+    }
+
+    .card__title {
+        font-size: 16px;
+    }
+
+    .allinone__title {
+        font-size: 26px;
+    }
+
+    .livesport__phone {
+        right: -3%;
+    }
+
+    .languages__list {
+        grid-template: repeat(2, 35px) / repeat(3, 90px);
+        grid-gap: 5px;
+    }
+    .languages_player {
+        height: 195px;
+    }
+    .section__title {
+        font-size: 26px;
+    }
+}

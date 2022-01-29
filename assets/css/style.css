@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600;900&family=Roboto:wght@400;500;700;900&display=swap');
+@import "config.css";
+@import "default.css";
+
+/* + Sections + */
+@import "sections/Start.section.css";
+@import "sections/Brands.section.css";
+@import "sections/AllInOne.section.css";
+@import "sections/LiveSport.section.css";
+@import "sections/Languages.section.css";
+@import "sections/TopLists.section.css";
+@import "sections/Download.section.css";
+@import "sections/Footer.section.css";
+/* - Sections - */
+
+@import "responsive.css";
